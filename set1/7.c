@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-char c;
+char g;
 printf("Enter a character: ");
-scanf("%c",&c);
-if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
-printf("%c is an alphabet.",c);
+scanf("%c",&g);
+if( (g>='a' && g<='z') || (g>='A' && g<='Z'))
+printf("%c is an alphabet.",g);
 else
-printf("%c is not an alphabet.",c);
+printf("%c is not an alphabet.",g);
 return 0;
 }
